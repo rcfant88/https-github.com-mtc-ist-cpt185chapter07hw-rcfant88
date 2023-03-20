@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.cboJobs = New System.Windows.Forms.ComboBox()
         Me.lblHourlyPay = New System.Windows.Forms.Label()
@@ -31,7 +31,6 @@ Partial Class Form1
         Me.lblFiveYearProjectionAnnual = New System.Windows.Forms.Label()
         Me.lblFYPHourly = New System.Windows.Forms.Label()
         Me.lblFYPYearly = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'cboJobs
@@ -114,21 +113,11 @@ Partial Class Form1
         Me.lblFYPYearly.TabIndex = 9
         Me.lblFYPYearly.Text = "FYP Yearly"
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(489, 395)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
-        Me.Label1.TabIndex = 10
-        Me.Label1.Text = "Label1"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(957, 629)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblFYPYearly)
         Me.Controls.Add(Me.lblFYPHourly)
         Me.Controls.Add(Me.lblFiveYearProjectionAnnual)
@@ -153,5 +142,4 @@ Partial Class Form1
     Friend WithEvents lblFiveYearProjectionAnnual As Label
     Friend WithEvents lblFYPHourly As Label
     Friend WithEvents lblFYPYearly As Label
-    Friend WithEvents Label1 As Label
 End Class
